@@ -50,7 +50,7 @@ module.exports = {
 
         // Conforme documentação do MongoDB a coordenada é gravada como
         // [longitude, latitude] diferente da ordem obtida no Maps que é
-        // latitude e longitude.
+        // latitude e longitude..
         const location = {
           type: 'Point',
           coordinates: [longitude, latitude],
